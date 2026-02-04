@@ -165,7 +165,7 @@ header .container {
 
 .logo h1 {
     font-size: 1.8rem;
-    color: white;
+    color: #000;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -182,8 +182,8 @@ header .container {
 }
 
 .nav-links li a {
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    color: #000;
     transition: var(--transition);
     font-size: 1rem;
     text-transform: uppercase;
@@ -191,8 +191,8 @@ header .container {
 }
 
 .nav-links li a:hover {
-    color: white;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color: #000;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Hamburger Menu (Mobile) */
