@@ -1,0 +1,70 @@
+/* Hero Split Layout */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: left;
+    /* Align text left for this layout */
+    padding-right: 2rem;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.hero-image-wrapper img {
+    max-height: 90vh;
+    /* Make her large enough */
+    width: auto;
+    object-fit: contain;
+    /* push her slightly down or right if needed to match composition */
+    margin-bottom: -50px;
+    /* Align bottom with section if possible */
+}
+
+
+@media screen and (max-width: 968px) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 100px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-content {
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .hero-image-wrapper {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-image-wrapper img {
+        max-height: 50vh;
+        margin-bottom: 0;
+    }
+}
