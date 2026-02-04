@@ -7,22 +7,22 @@
    ========================================= */
 :root {
     /* Colors */
-    --primary-color: #6a11cb;
-    --secondary-color: #2575fc;
-    --accent-color: #00ffc3;
+    --primary-color: #059669;
+    --secondary-color: #10b981;
+    --accent-color: #34d399;
     /* Bright Teal for buttons/highlights */
     --text-dark: #1a1a1a;
     --text-light: #f4f4f4;
     --text-muted: #666;
     --bg-light: #f9f9f9;
     --bg-white: #ffffff;
-    --bg-dark: #12002b;
-    /* Very dark purple/black */
+    --bg-dark: #022c22;
+    /* Very dark green/black */
 
     /* Gradients */
-    /* The Vibrant Purple-to-Blue Gradient */
-    --gradient-main: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-    --gradient-hero: linear-gradient(135deg, #4c00ff 0%, #8ca6db 100%);
+    /* The Vibrant Green Gradient */
+    --gradient-main: linear-gradient(135deg, #059669 0%, #10b981 100%);
+    --gradient-hero: linear-gradient(135deg, #047857 0%, #34d399 100%);
     /* Slightly different for Hero depth */
 
     /* Spacing */
