@@ -7,22 +7,22 @@
    ========================================= */
 :root {
     /* Colors */
-    --primary-color: #059669;
-    --secondary-color: #10b981;
-    --accent-color: #34d399;
+    --primary-color: #6a11cb;
+    --secondary-color: #2575fc;
+    --accent-color: #00ffc3;
     /* Bright Teal for buttons/highlights */
     --text-dark: #1a1a1a;
     --text-light: #f4f4f4;
     --text-muted: #666;
     --bg-light: #f9f9f9;
     --bg-white: #ffffff;
-    --bg-dark: #022c22;
-    /* Very dark green/black */
+    --bg-dark: #12002b;
+    /* Very dark purple/black */
 
     /* Gradients */
-    /* The Vibrant Green Gradient */
-    --gradient-main: linear-gradient(135deg, #059669 0%, #10b981 100%);
-    --gradient-hero: linear-gradient(135deg, #047857 0%, #34d399 100%);
+    /* The Vibrant Purple-to-Blue Gradient */
+    --gradient-main: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    --gradient-hero: linear-gradient(135deg, #4c00ff 0%, #8ca6db 100%);
     /* Slightly different for Hero depth */
 
     /* Spacing */
@@ -151,8 +151,8 @@ header {
 
 /* JS will toggle this class on scroll */
 header.scrolled {
-    background: #11cb6a;
-    background: linear-gradient(90deg, #11cb6a, #25fc75);
+    background: var(--primary-color);
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
     box-shadow: var(--shadow-sm);
     padding: 0.5rem 0;
 }
@@ -165,7 +165,7 @@ header .container {
 
 .logo h1 {
     font-size: 1.8rem;
-    color: #000;
+    color: white;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -182,8 +182,8 @@ header .container {
 }
 
 .nav-links li a {
-    font-weight: 700;
-    color: #000;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
     transition: var(--transition);
     font-size: 1rem;
     text-transform: uppercase;
@@ -191,8 +191,8 @@ header .container {
 }
 
 .nav-links li a:hover {
-    color: #000;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 /* Hamburger Menu (Mobile) */
